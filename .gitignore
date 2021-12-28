@@ -19,10 +19,14 @@ lib64/
 parts/
 sdist/
 var/
+hidden_file/
+
+CSV_data_challengue/
 *.egg-info/
 .installed.cfg
 *.egg
 *.json
+*.pptx
 
 *.pptx
 # PyInstaller
@@ -78,7 +82,7 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
+
 
 # Mac OS-specific storage files
 .DS_Store
